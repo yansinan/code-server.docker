@@ -22,6 +22,7 @@ mv ~/.local/lib/code-server-$VERSION-linux-amd64 ~/.local/lib/code-server-$VERSI
 ln -s ~/.local/lib/code-server-$VERSION/bin/code-server ~/.local/bin/code-server
 export PATH="~/.local/bin:$PATH"
 echo "code-server v$VERSION 安装完成！"
+ln -s ./config/config.yaml ~/.config/code-server/config.yaml
 # code-server
 # Now visit http://127.0.0.1:8080. Your password is in ~/.config/code-server/config.yaml
 

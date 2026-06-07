@@ -1,0 +1,4 @@
+bind-addr: 127.0.0.1:5000
+auth: password
+password: 设置一个强密码！
+cert: false
