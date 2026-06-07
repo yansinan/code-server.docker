@@ -26,3 +26,5 @@ ln -sfn $PWD/config/config.yaml ~/.config/code-server/config.yaml
 # code-server
 # Now visit http://127.0.0.1:8080. Your password is in ~/.config/code-server/config.yaml
 
+# 在vscode终端里运行会启动 vscode 的终端，导致无法访问 code-server，所以在这里提示用户在系统终端里运行 code-server 来访问。
+echo "请在系统终端里运行 'code-server' 来访问 code-server，访问地址为 http://127.0.0.1:5000"
